@@ -2,9 +2,11 @@ name: First Action
 run-name: First GitHub Action
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+
+  workflow_dispatch:
 
 jobs:
   first-job:
